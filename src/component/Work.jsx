@@ -10,7 +10,7 @@ export default function Work() {
         window.open('https://github.com/newasandy/TextModifiction-and-QRGenerator', '_blank');
     };
     const personalPorifolioSorceCode = () => {
-        window.open('https://github.com/newasandy/sandy-portfolio', '_blank');
+        window.open('https://github.com/newasandy/sandy-website', '_blank');
     };
     const textAndQrLive = () => {
         window.open('https://newasandy.github.io/TextModifiction-and-QRGenerator/', '_blank');
