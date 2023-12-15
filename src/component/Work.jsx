@@ -9,8 +9,14 @@ export default function Work() {
     const textAndQrSorceCode = () => {
         window.open('https://github.com/newasandy/TextModifiction-and-QRGenerator', '_blank');
     };
+    const personalPorifolioSorceCode = () => {
+        window.open('https://github.com/newasandy/sandy-portfolio', '_blank');
+    };
     const textAndQrLive = () => {
         window.open('https://newasandy.github.io/TextModifiction-and-QRGenerator/', '_blank');
+    };
+    const personalPorifolioLive = () => {
+        window.open('http://sandiprajbhandari.com.np', '_blank');
     };
 
     return (
@@ -41,8 +47,8 @@ export default function Work() {
                             <div className="project-name">Personal Portfolio Wibsite</div>
                             <div className="card__content">
                                 <p className="card__description"></p>
-                                <button className="card__button" onClick={textAndQrLive}>Live Demo</button>
-                                <button className="card__button secondary" onClick={textAndQrSorceCode}>Source Code</button>
+                                <button className="card__button" onClick={personalPorifolioLive}>Live Demo</button>
+                                <button className="card__button secondary" onClick={personalPorifolioSorceCode}>Source Code</button>
                             </div>
                         </div>
                     </div>
