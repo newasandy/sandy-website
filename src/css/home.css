@@ -1,0 +1,170 @@
+.container {
+    position: relative;
+    margin: 5px auto;
+    width: 80%;
+    padding-top: 5%;
+}
+
+
+
+.image img {
+    width: 45%;
+    margin-left: 20px;
+    float: right;
+    border: 3px solid rgb(46, 43, 226);
+    box-shadow: 8px 10px 10px rgb(81, 78, 255);
+    /* border-radius: 71% 29% 30% 70% / 74% 74% 26% 26%; */
+    border-radius: 64% 36% 41% 59% / 38% 28% 72% 62%;
+    /* border-radius: 71% 29% 31% 69% / 65% 41% 59% 35%; */
+
+}
+
+.container .text {
+
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .text .email {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 17px;
+
+}
+
+.container .text .email .emailHead {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.container .text span {
+    color: rgb(46, 43, 226);
+}
+
+.container .text .mainHead {
+    font-size: 60px;
+}
+
+.container .text .subHead {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.container .text .contact {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.container .text p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container .text .contact .social {
+    /* margin-top: 25px; */
+    padding: 25px;
+}
+
+.container .socialInfo {
+    padding-top: 20px;
+
+}
+
+.container .socialInfo .contact {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.socialInfo .socialIcon button {
+    place-items: center;
+    background: #e3edf7;
+    margin: 1em;
+    padding: .4em;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+
+.socialInfo .socialIcon button:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transform: translateY(0.5em);
+}
+
+.socialInfo .socialIcon button svg {
+    transition: transform 0.5s;
+}
+
+.socialInfo .socialIcon button:hover svg {
+    transform: scale(0.9);
+    fill: #333333;
+}
+
+.container .view-cv {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(46, 43, 226);
+}
+
+.default-btn,
+.hover-btn {
+    background-color: rgb(46, 43, 226);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+.hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color: rgb(24, 21, 180);
+    transform: translate(0%, 100%);
+}
+
+.hover-btn #file-down {
+    fill: white;
+}
+
+.hover-btn span {
+    color: hsl(50deg 100% 50%);
+}
+
+.container .view-cv:hover .default-btn {
+    transform: translate(0%, -100%);
+}
+
+.container .view-cv:hover .hover-btn {
+    transform: translate(0%, 0%);
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding-top: 20%;
+    }
+}
