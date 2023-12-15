@@ -267,7 +267,7 @@ section {
     }
 
     #check:checked~.navbar {
-        height: 11rem;
+        height: 8rem;
     }
 
     .navbar a {
