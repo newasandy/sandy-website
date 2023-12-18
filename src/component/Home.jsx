@@ -22,7 +22,7 @@ export default function Home() {
     };
     const viewCV = () => {
 
-        window.open('https://drive.google.com/file/d/1gtEl9hSbKDNScoyR2UI0E5Vjpx9lvUGE/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/1Cd74mXMOZCMaffh_kkclXL6gOdXevxMW/view?usp=sharing', '_blank');
     };
 
     return (
