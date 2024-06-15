@@ -39,7 +39,7 @@ export default function Home() {
                 <div className='text'>
                     <div className='mainHead'>Hi, It's <span>Sandip Rajbandari</span></div>
 
-                    <div className="subHead">Web Developer, Graphic Designer</div>
+                    {/* <div className="subHead">Web Developer, Graphic Designer</div> */}
 
 
                     {/* 
