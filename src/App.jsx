@@ -7,6 +7,8 @@ import Photography from "./component/Photography";
 import { useState } from "react";
 import DarkBg from './media/DarkLogoBG.gif';
 import LightBg from './media/LightLogoBG.gif';
+import Maintanance from "./component/Maintanance";
+// import Maintenance from "./component/Maintenance";
 
 function App() {
   // document.body.style.backgroundImage = `url(${LightBg})`;
@@ -25,7 +27,7 @@ function App() {
 
   return (
     <>
-      <header className="header">
+      {/* <header className="header">
         <a className="logo" href="#home"> <img src={myLOGO} alt="" className="logo-img" /></a>
         <input type="checkbox" id="check" />
         <label htmlFor="check" className="menu-icon">
@@ -50,9 +52,6 @@ function App() {
         </nav>
 
       </header>
-
-
-
       <section id="home">
         <Home />
       </section>
@@ -64,7 +63,10 @@ function App() {
       </section>
       <section id="photography">
         <Photography />
-      </section>
+      </section> */}
+
+
+      <Maintanance />
     </>
   )
 }
