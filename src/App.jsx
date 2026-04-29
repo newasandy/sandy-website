@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <header className="header">
+      {/* <header className="header">
         <a className="logo" href="#home"> <img src={myLOGO} alt="" className="logo-img" /></a>
         <input type="checkbox" id="check" />
         <label htmlFor="check" className="menu-icon">
@@ -63,10 +63,10 @@ function App() {
       </section>
       <section id="photography">
         <Photography />
-      </section>
+      </section> */}
 
 
-      {/* <Maintanance /> */}
+      <Maintanance />
     </>
   )
 }

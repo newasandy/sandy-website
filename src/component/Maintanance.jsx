@@ -6,11 +6,11 @@ const Maintanance = () => {
         <>
             <div className='myAnimation'>
                 <div className='innerDiv'>
-                    <div className='s'>S</div>
-                    <div className='a'>A</div>
-                    <div className='n'>N</div>
-                    <div className='d'>D</div>
-                    <div className='y'>Y</div>
+                    <div className='s'>Z</div>
+                    <div className='a'>E</div>
+                    <div className='n'>R</div>
+                    <div className='d'>O</div>
+                    <div className='y'>7</div>
                 </div>
             </div>
         </>
